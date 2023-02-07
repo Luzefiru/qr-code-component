@@ -24,6 +24,7 @@ body {
 }
 
 .card--vertical {
+  box-shadow: hsl(220, 15%, 75%) 0 0 50px;
   background-color: var(--card-background-color);
   padding: 1rem;
 

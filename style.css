@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+:root {
+  --font-stack: 'Outfit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card--vertical {
@@ -14,4 +20,14 @@
 
   display: flex;
   justify-content: center;
+}
+
+.card--vertical__heading {
+  font-family: var(--font-stack);
+  font-weight: 700;
+}
+
+.card--vertical__body {
+  font-family: var(--font-stack);
+  font-weight: 400;
 }
